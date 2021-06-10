@@ -4,8 +4,8 @@ import random
 
 
 def main():
-    m = list(range(50, 76))
-    x = random.choices(m, weights=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], k=100)
+    m = list(range(50, 75))
+    x = random.choices(m, weights=[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], k=100)
     y = sorted(x)
     print(f" y = {y}")
     print(f" minimum is equal to first value: min = {min(y)}")
